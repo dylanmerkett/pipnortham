@@ -287,10 +287,10 @@ img.alignright{
   margin-left: 30px;
 }
 
-.page-content-wrap{padding: 125px 0;}
+.page-content-wrap{padding: 30px 0 125px 0;}
 
 [class*="page-section"]{
-  padding: 120px 0;
+  padding: 60px 0 120px 0;
   position: relative;
 }
 
@@ -1778,9 +1778,9 @@ button.account:before{
     visibility: hidden;
 
     background: #915291; /* Old browsers */
-    background: -moz-linear-gradient(left, #915291 0%, #e883ae 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #915291 0%,#e883ae 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #915291 0%,#e883ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(left, #915291 0%, #c84630 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #915291 0%,#c84630 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #915291 0%,#c84630 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
     -webkit-transition: all .45s ease;
     -o-transition: all .45s ease;
@@ -1987,7 +1987,7 @@ button.account:before{
   }
 
   .discount-popup .title span{
-    color: #e883ae;
+    color: #c84630;
   }
 
   .discount-popup .title{
@@ -2178,16 +2178,16 @@ button.account:before{
 
 .bg-section-2{
   background: #915291; /* Old browsers */
-  background: -moz-linear-gradient(left, #915291 0%, #e883ae 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #915291 0%,#e883ae 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #915291 0%,#e883ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(left, #915291 0%, #c84630 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #915291 0%,#c84630 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #915291 0%,#c84630 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .bg-section{
-  background: #e883ae; /* Old browsers */
-  background: -moz-linear-gradient(left, #e883ae 0%, #915291 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #e883ae 0%, #915291 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #e883ae 0%, #915291 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #c84630; /* Old browsers */
+  background: -moz-linear-gradient(left, #c84630 0%, #915291 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #c84630 0%, #915291 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #c84630 0%, #915291 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 /* Half cols bg */
@@ -2250,7 +2250,7 @@ button.account:before{
 /* Breadcrumbs */
 
 .breadcrumbs-wrap{
-  background: rgba(101, 52, 255, 0.1);
+  background: #fff;
   padding: 64px 0;
   margin-top: 128px;
   text-align: center;
@@ -2546,7 +2546,7 @@ button.account:before{
   }
 
   [class*="btn"].btn-lg{
-    font-size: 18px;
+    font-size: 16px;
     padding: 13px 30px;
     letter-spacing: 0.5px;
   }
@@ -2578,7 +2578,7 @@ button.account:before{
   }
 
   [class*="btn"].btn-style-3{
-    background: #e883ae;
+    background: #c84630;
   }
 
   [class*="btn"].btn-style-4{
@@ -2591,7 +2591,7 @@ button.account:before{
   }
 
   [class*="btn"].btn-style-6{
-    background: #334d5c;
+    background: #6e7376;
   }
 
   [class*="btn"].btn-label{
@@ -2754,7 +2754,7 @@ button.account:before{
 
     input:not([type="submit"]):focus,
     textarea:focus{
-      border-color: #e883ae;
+      border-color: #c84630;
       -moz-appearance:none;
       outline:0px none transparent;
     }
@@ -2791,7 +2791,7 @@ button.account:before{
 
     .required:after{
       content: "*";
-      color: #e883ae;
+      color: #c84630;
       position: absolute;
       left: 100%;
       top: 0;
@@ -3049,7 +3049,7 @@ button.account:before{
           position: absolute;
           top: 0;
           bottom: 0;
-          background: #e883ae;
+          background: #c84630;
           margin: 4px 0;
         }
 
@@ -3079,9 +3079,9 @@ button.account:before{
           margin-left: -4px;
 
           background: #7436a5;
-          background: -moz-linear-gradient(right left, #e883ae 0%, #915291 100%);
-          background: -webkit-linear-gradient(right left, #e883ae 0%, #915291 100%);
-          background: linear-gradient(to right, #e883ae 0%, #915291 100%);
+          background: -moz-linear-gradient(right left, #c84630 0%, #915291 100%);
+          background: -webkit-linear-gradient(right left, #c84630 0%, #915291 100%);
+          background: linear-gradient(to right, #c84630 0%, #915291 100%);
         }
 
         .price-scale .ui-slider-handle:last-child{
@@ -3250,7 +3250,7 @@ button.account:before{
   }
 
   [class*="table-type"] table tr > td.tprice{
-    color: #e883ae;
+    color: #c84630;
   }
 
   .table-type-1 table tr > th:nth-child(2){
@@ -3483,7 +3483,7 @@ button.account:before{
   }
 
   table.tribe-events-calendar thead tr th{
-    background: rgba(98, 188, 250, 0.4);
+    background: rgba(153, 206, 212, 0.4);
     color: #777;
     font-weight: 300;
     text-transform: uppercase;
@@ -3520,7 +3520,7 @@ button.account:before{
   }
 
   .tribe-events-calendar tr td .tribe-events-category-tech-events:hover{
-    background: #bbc4ef;
+    background: #4abdac;
     color: #fff;
   }
 
@@ -3686,7 +3686,7 @@ button.account:before{
     vertical-align: top;
     margin-right: 10px;
     font-family: 'linearicons';
-    color: #e883ae;
+    color: #c84630;
     font-size: 20px;
   }
 
@@ -3900,7 +3900,7 @@ button.account:before{
   }
 
     .our-info .info-item > i{
-      color: #e883ae;
+      color: #c84630;
       float: left;
       line-height: 26px;
       margin-right: 8px;
@@ -4000,7 +4000,7 @@ button.account:before{
     overflow: hidden;
     color: transparent;
     border: 2px solid #ab619a;  
-    border-image-source: linear-gradient(#e883ae, #ab619a);
+    border-image-source: linear-gradient(#c84630, #ab619a);
     border-image-slice: 20;
   }
 
@@ -4009,7 +4009,7 @@ button.account:before{
   }
 
   .blockquote-holder.with-bg{
-    background: #e883ae;
+    background: #c84630;
     border: none;
   }
 
@@ -4048,7 +4048,7 @@ button.account:before{
   }
 
   hr.style-3{
-    border-color: #e883ae;
+    border-color: #c84630;
   }
 
   hr.style-4{
@@ -4077,7 +4077,7 @@ button.account:before{
   }
 
   .icon-divider.style-4 .svg path{
-    stroke: #e883ae;
+    stroke: #c84630;
   }
 
   .icon-divider.style-5 .svg path{
@@ -4228,7 +4228,7 @@ button.account:before{
   }
 
   .week_links > span > a:hover{
-    background: #e883ae;
+    background: #c84630;
   }
 
   .week_links > .healcode-jump-to-date{
@@ -4422,9 +4422,9 @@ button.account:before{
       .insta-title > i:before{
         width: 24px;
         background: #7436a5;
-        background: -moz-linear-gradient(right left, #e883ae 0%, #915291 100%);
-        background: -webkit-linear-gradient(right left, #e883ae 0%, #915291 100%);
-        background: linear-gradient(to right, #e883ae 0%, #915291 100%);
+        background: -moz-linear-gradient(right left, #c84630 0%, #915291 100%);
+        background: -webkit-linear-gradient(right left, #c84630 0%, #915291 100%);
+        background: linear-gradient(to right, #c84630 0%, #915291 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -4787,7 +4787,7 @@ button.account:before{
 
   .dropcap::first-letter{
     font-size: 54px;
-    color: #e883ae;
+    color: #c84630;
     font-weight: 600;
   }
 
@@ -5136,7 +5136,7 @@ button.account:before{
     width: 52px;
     height: 52px;
     line-height: 60px;
-    border: 1px solid #e883ae;
+    border: 1px solid #c84630;
     border-radius: 50%;
     text-align: center;
   }
@@ -5145,7 +5145,7 @@ button.account:before{
     width: 25px;
     height: 25px;
     display: inline-block;
-    background-color: #e883ae;
+    background-color: #c84630;
     -webkit-mask-image: url(../svg/asana_lotus.svg);
     mask-image: url(../svg/asana_lotus.svg);
   }
@@ -5300,7 +5300,7 @@ button.account:before{
   }
 
   [class*="carousel-type"] .owl-dots .owl-dot.active{
-    background: #e883ae;
+    background: #c84630;
   }
 
   .owl-prev,
@@ -5474,7 +5474,7 @@ button.account:before{
   }
 
   .popup-inner .pt-price{
-    color: #e883ae;
+    color: #c84630;
   }
 
   .pt-type:not(:last-child){
@@ -5496,7 +5496,7 @@ button.account:before{
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
-    color: #e883ae;
+    color: #c84630;
   }
 
   .pt-lifetime{
@@ -6146,9 +6146,9 @@ button.account:before{
     font-family: 'Linearicons';
 
     background: #955492;
-    background: -moz-linear-gradient(left top, #e883ae 0%, #e883ae 35%, #955492 75%, #955492 100%);
-    background: -webkit-linear-gradient(left top, #e883ae 0%,#e883ae 35%,#955492 75%,#955492 100%);
-    background: linear-gradient(to right, #e883ae 0%,#e883ae 35%,#955492 75%,#955492 100%);
+    background: -moz-linear-gradient(left top, #c84630 0%, #c84630 35%, #955492 75%, #955492 100%);
+    background: -webkit-linear-gradient(left top, #c84630 0%,#c84630 35%,#955492 75%,#955492 100%);
+    background: linear-gradient(to right, #c84630 0%,#c84630 35%,#955492 75%,#955492 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: initial;
@@ -6511,7 +6511,7 @@ button.account:before{
       font-size: 12px;
       letter-spacing: 1px;
       line-height: 28px;
-      background: #e883ae;
+      background: #c84630;
       color: #fff;
       padding: 0 15px;
       border-radius: 0 0 0 15px;
@@ -6609,7 +6609,7 @@ button.account:before{
     overflow: hidden;
     color: transparent;
     border: 2px solid #ab619a;
-    border-image-source: linear-gradient(#e883ae, #ab619a);
+    border-image-source: linear-gradient(#c84630, #ab619a);
     border-image-slice: 20;
   }
 
@@ -6621,7 +6621,7 @@ button.account:before{
     .link-attachment .link{
       position: relative;
       font-size: 18px;
-      color: #e883ae;
+      color: #c84630;
       line-height: 30px;
     }
 
@@ -6700,7 +6700,7 @@ button.account:before{
     }
 
     .single-post .custom-list li .product-price{
-      color: #e883ae;
+      color: #c84630;
     }
 
   .entry-box.list-type:not(:last-child){
@@ -7167,7 +7167,7 @@ button.account:before{
   .product-price{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.3px;
-    color: #e883ae;
+    color: #c84630;
     font-weight: 500;
   }
 
@@ -7370,7 +7370,7 @@ button.account:before{
 
   .shopping-cart .product-price,
   .shop-cart-form .product-price{
-    color: #e883ae;
+    color: #c84630;
     font-size: 14px;
     font-weight: 300;
     line-height: 30px;
@@ -7419,7 +7419,7 @@ button.account:before{
     padding-left: 5px;
     letter-spacing: 0.5px;
     font-weight: 500;
-    color: #e883ae;
+    color: #c84630;
   }
 
   .vr-btns-set > *:not(:last-child){
@@ -8099,7 +8099,7 @@ button.account:before{
 
 [class*="footer"].style-3 .copyright,
 [class*="footer"].style-4 .copyright{
-  background: #a8b6bf;
+  background: #222;
   padding: 13px 0;
 }
 

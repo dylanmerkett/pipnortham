@@ -97,7 +97,7 @@
             <div class="info-item">
               <i class="licon-at-sign"></i>
               <div class="wrapper">
-                <a href="#">p.northam@hotmail.co.uk</a>
+                <a href="mailto:p.northam@hotmail.co.uk?subject=Hi Pip">p.northam@hotmail.co.uk</a>
               </div>
             </div>
           
@@ -108,8 +108,8 @@
 
             <ul class="social-icons style-2">
                   
-              <li><a href="#"><i class="icon-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-instagram-5"></i></a></li>
+              <li><a href="https://www.facebook.com/pip.northam.5" target="_blank"><i class="icon-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/northampip/" target="_blank"><i class="icon-instagram-5"></i></a></li>
             
             </ul>
 
@@ -153,14 +153,6 @@
                         <li><a href="classes_schedule.html">Where I teach</a></li>
                         <li><a href="classes_desc.html">Classes</a>
                           <!--sub menu-->
-                          <div class="sub-menu-wrap">
-                            <ul>
-                              <li><a href="blog_single.html">Yoga</a></li>
-                              <li><a href="blog_single.html">Spinning</a></li>
-                              <li><a href="blog_single.html">TRX</a></li>
-                              <li><a href="blog_single.html">Retreats</a></li>
-                            </ul>
-                          </div>
                         </li>
                         <li><a href="blog_masonry.html">Journal</a></li>
                         <li><a href="contact_me.html">Let's chat</a></li>
@@ -201,7 +193,7 @@
               data-whitespace="nowrap"
               data-frames='[{"delay":150,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
               data-responsive_offset="on"
-              data-elementdelay="0.05" >Yoga to grow your mind and your body<br>Pip Northam
+              data-elementdelay="0.05" >Grow your mind and your body<br>Pip Northam
             </div>
 
             <div class="tp-caption tp-resizeme"
@@ -210,7 +202,7 @@
               data-whitespace="nowrap"
               data-frames='[{"delay":750,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
               data-responsive_offset="on"
-              data-elementdelay="0.05" ><a href="#" class="btn btn-big btn-style-3">Book a class</a>
+              data-elementdelay="0.05" ><a href="classes_schedule.html" class="btn btn-big btn-style-3">Book a class</a>
             </div>
 
           </li>
@@ -232,33 +224,33 @@
 
         <div class="info-box" data-bg="images/yoga-block.jpg">
 
-          <h3 class="box-title"><a href="#">Yoga</a></h3>
+          <h3 class="box-title"><a href="classes_desc.html#yogaclass">Yoga</a></h3>
           <p><strong>During my yoga classes, we'll practice postures that will help align, strengthen and promote flexibility in your body.</strong></p>
-          <a href="#" class="btn btn-style-2">Read More</a>
+          <a href="classes_desc.html#yogaclass" class="btn btn-style-2">Find out more</a>
 
         </div>
 
         <div class="info-box" data-bg="images/spinning-block.jpg">
 
-          <h3 class="box-title"><a href="#">Spinning</a></h3>
+          <h3 class="box-title"><a href="classes_desc.html#spinclass">Indoor cycling</a></h3>
           <p><strong>My spinning classes are a great way to get an intense fitness fix and burn away some of those unwanted calories.</strong></p>
-          <a href="#" class="btn btn-style-2">Read More</a>
+          <a href="classes_desc.html#spinclass" class="btn btn-style-2">Find out more</a>
 
         </div>
 
         <div class="info-box" data-bg="images/trx-block.jpg">
 
-          <h3 class="box-title"><a href="#">TRX</a></h3>
+          <h3 class="box-title"><a href="classes_desc.html#trxclass">TRX</a></h3>
           <p><strong>My TRX suspension trainer class is the perfect compliment to your yoga practice whether you're a beginner or advanced yogi.</strong></p>
-          <a href="#" class="btn btn-style-2">Read More</a>
+          <a href="classes_desc.html#trxclass" class="btn btn-style-2">Find out more</a>
 
         </div>
 
         <div class="info-box" data-bg="images/retreat-block.jpg">
 
-          <h3 class="box-title"><a href="#">Retreats</a></h3>
+          <h3 class="box-title"><a href="classes_desc.html#retreatclass">Retreats</a></h3>
           <p><strong>-- COMING SOON -- </strong></p>
-          <a href="#" class="btn btn-style-2">Find out more</a>
+          <a href="classes_desc.html#retreatclass" class="btn btn-style-2">Find out more</a>
 
         </div>
 
@@ -301,7 +293,7 @@
   
                   <div>
                     <br>
-                    <a href="classes_schedule.html" class="btn btn-style-3">Check out where I'm teaching</a>
+                    <a href="classes_schedule.html" class="btn btn-style-3">Find out where I'm teaching</a>
   
                   </div>
   
@@ -434,7 +426,7 @@
         
                       <p class="align-center">If you have any questions about Yoga or any of my classes, feel free to drop me a line, using the form below.</p>
         
-                      <form id="contact-form" class="contact-form style-2">
+                      <form id="contact-form" class="contact-form style-2" action="bat/mail.php" method="POST">
         
                         <div class="contact-item">
                           
@@ -450,7 +442,7 @@
         
                         <div class="contact-item">
                           
-                          <input type="url" name="cf-subject" placeholder="What would you like to discuss?">
+                          <input type="text" name="cf-subject" placeholder="What would you like to discuss?">
         
                         </div>
         
@@ -494,12 +486,12 @@
         
         <div class="flex-row align-items-center justify-content-between">
           
-          <p>Copyright © 2018 Merko Fitness. All Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> | <i class="licon-at-sign"></i> <a href="mailto:">p.northam@hotmail.co.uk</a> | <i class="licon-telephone"></i> <span content="telephone=no">07517581477</span></p>
+          <p>Copyright © 2018 Merko Fitness. All Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> | <i class="licon-at-sign"></i> <a href="mailto:p.northam@hotmail.co.uk?subject=Hi Pip">p.northam@hotmail.co.uk</a> | <i class="licon-telephone"></i> <span content="telephone=no">07517581477</span></p>
 
           <ul class="social-icons">
 
-            <li><a href="#"><i class="icon-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-instagram-5"></i></a></li>
+            <li><a href="https://www.facebook.com/pip.northam.5" target="_blank"><i class="icon-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/northampip/" target="_blank"><i class="icon-instagram-5"></i></a></li>
 
           </ul>
 

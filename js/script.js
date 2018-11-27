@@ -147,8 +147,8 @@
 			    	delay:6000,
 			    	sliderLayout:"fullscreen",
 		            navigation: {
-		                arrows:{
-		                	enable:true,
+		                bullets:{
+		                	enable:false,
 		                	left: {
 								container:"slider",
 					            h_align:"left",
@@ -187,7 +187,7 @@
 			    	delay:6000,
 		            navigation: {
 		                arrows:{
-		                	enable:true,
+		                	enable:false,
 		                	left: {
 								container:"slider",
 					            h_align:"left",

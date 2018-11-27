@@ -1,7 +1,7 @@
 <?php
 	
 /* Email Address */	
-$to = 'mail@companyname.com';
+$to = 'dylanmerkett@yahoo.co.uk';
 
 /* Subject */
 $subject = 'Revija Newsletter Form';

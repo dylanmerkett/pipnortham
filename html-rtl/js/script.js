@@ -148,7 +148,7 @@
 			    	sliderLayout:"fullscreen",
 		            navigation: {
 		                arrows:{
-		                	enable:true,
+		                	enable:false,
 		                	left: {
 								container:"slider",
 					            h_align:"left",
