@@ -3831,11 +3831,11 @@ button.account:before{
   }
 
     .social-icons.style-2 > li{
-      padding: 6px;
+      padding: 0;
     }
 
     .social-icons.style-2 > li:not(:last-child){
-      margin-right: 30px;
+      margin-right: 55px;
     }
 
       .social-icons.style-2 > li > a{
