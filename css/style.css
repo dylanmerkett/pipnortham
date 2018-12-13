@@ -3831,7 +3831,7 @@ button.account:before{
   }
 
     .social-icons.style-2 > li{
-      padding: 0;
+      padding: 6px;
     }
 
     .social-icons.style-2 > li:not(:last-child){
